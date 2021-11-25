@@ -15,3 +15,7 @@ Route::post('register', 'App\Http\Controllers\RegistrationController@store');
 Route::get('/login', 'App\Http\Controllers\SessionController@create');
 Route::post('/login', 'App\Http\Controllers\SessionController@store');
 Route::get('/logout', 'App\Http\Controllers\SessionController@destroy');
+
+
+Route::get('/resultados', 'App\Http\Controllers\ListarResultados@listarViewAnswers');
+Route::get('/VistaListar/puntajePorRespuesta', 'App\Http\Controllers\ListarResultados@puntajePorRespuesta')->name('resultados.puntajePorRespuesta');

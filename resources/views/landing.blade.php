@@ -3,7 +3,8 @@
 @section('content')
 
         <div class="container">
-    <h2>Bienvenido, ahora puede realizar la encuesta, para empezar presione el boton Iniciar, recuerde que es solo 1 entrada por usuario, si ya realizo la encuesta el sistema se lo ha de indicar</h2>
+    <h2>Bienvenido, ahora puede realizar la encuesta, para empezar presione el boton Iniciar, recuerde que es solo 1 entrada por usuario, 
+        si ya realizo la encuesta el sistema se lo ha de indicar</h2>
 
 
     </div>
