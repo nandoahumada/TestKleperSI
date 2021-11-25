@@ -19,4 +19,3 @@ Route::get('/logout', 'App\Http\Controllers\SessionController@destroy');
 
 Route::get('/resultados', 'App\Http\Controllers\ListarResultados@listarViewAnswers');
 Route::get('/VistaListar/puntajePorRespuesta', 'App\Http\Controllers\ListarResultados@puntajePorRespuesta')->name('resultados.puntajePorRespuesta');
-Route::get('firebase','App\Http\Controllers\FirebaseController@index');
