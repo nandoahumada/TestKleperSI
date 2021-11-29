@@ -3,7 +3,7 @@
 @section('content')
 
         <div class="container">
-    <h2>Iniciar Sesión</h2>
+    <p class="display-4"><Strong>Iniciar Sesión</Strong></p>
 
     </div>
 
@@ -18,8 +18,8 @@
     </div>
 @endif
 
-    <div class="container col-3">
-    <form class="col ml-n5" method="POST" action="/login">
+    <div class="container">
+    <form class="col-md-8" method="POST" action="/login">
         {{ csrf_field() }}
         <div class="col-auto">
             <label for="email">Email:</label>
@@ -32,7 +32,7 @@
         </div>
 
         
-        <div class="col-auto m-5">
+        <div class="col-auto p-3">
             <button style="cursor:pointer" type="submit" class="btn btn-primary">Ingresar</button>
             <a class="btn btn-primary m-5" href="register" role="button">Registrarse</a>
         </div>

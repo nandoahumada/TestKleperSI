@@ -2,7 +2,7 @@
 @section('content')
 <div class="container">
     <div class="col">
-    <h2>Respuestas y su puntaje</h2>
+        <p class="display-4"><Strong> Respuestas y su puntaje </Strong></p>
     <div class="col">
     @if ($errors->any())
     <div class="alert alert-danger">
