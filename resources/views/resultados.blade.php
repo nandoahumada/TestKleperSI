@@ -35,8 +35,6 @@
                 <th scope="col">Pregunta</th>
                 <th scope="col">Encuestado</th>
                 <th scope="col">Respuesta</th>
-                <th scope="col">Puntaje</th>
-                <th scope="col">Total</th>
 
                 
             </tr>
@@ -50,8 +48,6 @@
                 <td>{{$resultados->Pregunta}}</td>
                 <td>{{$resultados->Encuestado}}</td>
                 <td>{{$resultados->Respuesta}}</td>
-                <td>{{$resultados->Puntaje}}</td>
-                <td>{{$resultados->SumaScores}}</td>
             </tr>
             @endforeach
 
