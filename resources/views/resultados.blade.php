@@ -32,6 +32,7 @@
             <thead>
             <tr>
                 <th scope="col">Nro_Pregunta</th>
+                <th scope="col">Seccion</th>
                 <th scope="col">Pregunta</th>
                 <th scope="col">Encuestado</th>
                 <th scope="col">Respuesta</th>
@@ -45,6 +46,7 @@
             @foreach($VistaListar as $resultados)
             <tr>
                 <td>{{$resultados->Nro_Pregunta}}</td>
+                <td>{{$resultados->Seccion}}</td>
                 <td>{{$resultados->Pregunta}}</td>
                 <td>{{$resultados->Encuestado}}</td>
                 <td>{{$resultados->Respuesta}}</td>
