@@ -9,7 +9,9 @@ class VistaListar extends Model
    
     protected $table = 'SelectAnswersByUser'; //tabla en db adp
 
-        protected $attributes = [ 
+        protected $attributes = [
+            'ID',
+            'Seccion',
             'Nro_Pregunta',
             'Pregunta',
         'Respuesta', //columnas que recupera la pagina

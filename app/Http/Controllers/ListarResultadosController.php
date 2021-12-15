@@ -7,7 +7,7 @@ use App\Models\VistaListar;
 use DB;
 use \Illuminate\Foundation\Auth\AuthenticatesUsers;
 
-class ListarResultados extends Controller
+class ListarResultadosController extends Controller
 {
 
     public function listarViewAnswers(Request $request)

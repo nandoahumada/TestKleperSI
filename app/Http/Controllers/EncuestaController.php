@@ -26,7 +26,7 @@ class EncuestaController extends Controller
         
         (new Entry)->for($survey)->by($user)->fromArray($answers)->push();
         // return back()->with('Finalizada','Gracias por su tiempo!');
-        return redirect()->to('/resultados');
+        return redirect()->to('/resumen');
 
     }
 

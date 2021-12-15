@@ -4,7 +4,9 @@ create view SelectAnswersByUser
 
 as
       
-select qu.id as Nro_Pregunta,
+select qu.real_section as ID,
+se.name as Seccion,
+qu.id as Nro_Pregunta,
 qu.content as Pregunta,
 an.value as Respuesta,
 us.name as Encuestado,
@@ -29,4 +31,6 @@ inner join scores sc
 on qu.id = sc.question_id
 inner join users us 
 on en.participant_id = us.id
+inner join sections se
+on se.id = qu.section_id
 WHERE AN.value = SC.options;

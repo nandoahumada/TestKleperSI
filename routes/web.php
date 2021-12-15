@@ -17,5 +17,6 @@ Route::post('/login', 'App\Http\Controllers\SessionController@store');
 Route::get('/logout', 'App\Http\Controllers\SessionController@destroy');
 
 
-Route::get('/resultados', 'App\Http\Controllers\ListarResultados@listarViewAnswers');
+//Route::get('/resultados', 'App\Http\Controllers\ListarResultadosController@listarViewAnswers');
+Route::get('/resumen', 'App\Http\Controllers\ResumenController@calculateScores');
 Route::get('/VistaListar/puntajePorRespuesta', 'App\Http\Controllers\ListarResultados@puntajePorRespuesta')->name('resultados.puntajePorRespuesta');
