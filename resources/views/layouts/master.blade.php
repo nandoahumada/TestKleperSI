@@ -39,7 +39,7 @@
         <span class="navbar-toggler-icon"></span>
     </button>
 
-    <p class="display-4"style="color:white;"><Strong>Self Assesment Kepler</Strong></p>
+    <p class="display-4"style="color:white;"><Strong>Cyber Risk Assesment</Strong></p>
 
     <span><img src="img\KeplerB.png" height="180" width="300" alt="logo"></span>
 
