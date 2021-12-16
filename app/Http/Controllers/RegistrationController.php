@@ -18,14 +18,19 @@ class RegistrationController extends Controller
     {
         $this->validate(request(),
         [
-            'name'=> 'required',
+            'name'=> 'required|string',
             'email'=> 'required|string|email|unique:users',
-            'password' => 'required|confirmed'
+            'password' => 'required|confirmed',
+            'comp_name' => 'required',
+            'area',
+            'phone' => 'required|numeric|min:8',
+            'workers_num',
+            'pcs_num'
 
         ]
         );
 
-        $user = User::create(request(['name','email','password']));
+        $user = User::create(request(['name','email','password','comp_name','area','phone','workers_num','pcs_num']));
 
         auth()->login($user);
 

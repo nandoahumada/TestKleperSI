@@ -39,6 +39,39 @@
                    name="password_confirmation">
                 </div>
 
+                <h1 class="display-6"> Datos de la empresa </h1>
+
+                <div class="col-auto">
+                    <label for="comp_name">Nombre de la Empresa:</label>
+                    <input type="text" class="form-control" id="comp_name"
+                           name="comp_name">
+                        </div>        
+
+                 <div class="col-auto">
+                     <label for="area">Area de trabajo:</label>
+                     <input type="text" class="form-control" id="area"
+                       name="area">
+                  </div>  
+
+                <div class="col-auto">
+                        <label for="phone">Telefono:</label>
+                         <input type="text" class="form-control" id="phone"
+                        name="phone">
+                </div>  
+
+                <div class="col-auto">
+                    <label for="workers_num">Numero de Integrantes de la Empresa:</label>
+                     <input type="text" class="form-control" id="workers_num"
+                    name="workers_num">
+                </div>  
+                
+                <div class="col-auto">
+                <label for="pcs_num">Numero de estaciones de trabajo (Computadores/Notebooks):</label>
+                 <input type="text" class="form-control" id="pcs_num"
+                name="pcs_num">
+                </div>  
+
+
         <div class="col-auto p-3">
             <button style="cursor:pointer" type="submit" class="btn btn-primary">Enviar</button>
         </div>

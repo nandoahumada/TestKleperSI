@@ -21,6 +21,11 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'comp_name',
+        'area',
+        'phone',
+        'workers_num',
+        'pcs_num'
     ];
 
     /**
@@ -44,6 +49,10 @@ class User extends Authenticatable
 
     protected $rules = [
         'email' => 'required|email|unique:email',
+        'name' => 'string',
+        'phone' => 'numeric|min:8',
+        'workers_num' => 'numeric',
+        'pcs_num' => 'numeric'
     ];
 
 
