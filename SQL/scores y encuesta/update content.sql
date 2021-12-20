@@ -1,0 +1,20 @@
+update questions set content = '¿Cuéntan con un inventario de todo el HW?' where id = 2;
+update questions set content = '¿Está automatizado este inventario?' where id = 3;
+update questions set content = '¿Con qué frecuencia se actualiza?' where id = 4;
+update questions set content = '¿Existe un procedimiento que establezca el responsable del inventario, a quien reporta, qué se registra y cada cuánto se revisa?' where id = 5;
+update questions set content = '¿El inventario de hardware ha sido aprobado por la direccion?' where id = 8;
+update questions set content = '¿Están actualizados los firmware de los routers, switchs y firewalls de su red?' where id = 16;
+update questions set content = '¿Existe un procedimiento qué indica qué hacer ante la presencia de un software no autorizado?' where id = 17;
+update questions set content = '¿Este proceso está escrito?' where id = 20;
+update questions set content = '¿Cuéntan con un inventario de información sensible?' where id = 22;
+update questions set content = '¿Cuéntan con listas de control de acceso a la informacion?' where id = 25;
+update questions set content = '¿Está definido el tiempo de mantencion de los archivos corporativos?' where id = 30;
+update questions set content = '¿Las cuentas sin uso o "durmientes" son desactivadas despues de 45 días sin actividad?' where id = 63;
+
+UPDATE questions set options = '["CONTINUAMENTE", "AL MENOS UNA VEZ AL SEMESTRE", "ANUALMENTE", "NO APLICA"]' where id = '4';
+UPDATE questions set options = '["CONTINUAMENTE", "AL MENOS UNA VEZ AL SEMESTRE", "ANUALMENTE", "NO APLICA"]' where id = '11';
+UPDATE questions set options = '["CONTINUAMENTE", "AL MENOS UNA VEZ AL SEMESTRE", "ANUALMENTE", "NO APLICA"]' where id = '21';
+UPDATE questions set options = '["CONTINUAMENTE", "AL MENOS UNA VEZ AL SEMESTRE", "ANUALMENTE", "NO APLICA"]' where id = '23';
+UPDATE questions set options = '["CONTINUAMENTE", "AL MENOS UNA VEZ AL SEMESTRE", "ANUALMENTE", "NO APLICA"]' where id = '39';
+UPDATE questions set options = '["CONTINUAMENTE", "AL MENOS UNA VEZ AL SEMESTRE", "ANUALMENTE", "NO APLICA"]' where id = '42';
+UPDATE questions set options = '["CONTINUAMENTE", "AL MENOS UNA VEZ AL SEMESTRE", "ANUALMENTE", "NO APLICA"]' where id = '58';
