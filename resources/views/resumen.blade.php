@@ -17,19 +17,19 @@
 
 
 <div class="card mb-3">
-    <div class="card-body">Muchas gracias por contestar nuestro Cyber Risk Assessment. Empezaremos a procesar la información para entregarle un scoring y recomendaciones personalizadas. Pero tranquil@, si contrataste el seguro, ¡ya cuentas con protección financiera!
+    <div class="card-body">Muchas gracias por contestar nuestro Cyber Risk Assessment. Empezaremos a procesar la información para entregarle un scoring y recomendaciones personalizadas. Pero tranquil@, si contrataste el seguro, ¡ya cuentas con protección financiera!</li>
     
-    Es importante hacerte notar que aun cuando cada vulnerabilidad es importante, basta con que sólo una de estas sea explotada por un atacante, para penetrar sus defensas y exponer a daños financieros, operacionales, legales y por supuesto reputacionales.
-    Dado que el 91% de los ataques exitosos comenzaron con un correo malicioso y un 47,9% de las personas dentro de una empresa sin entrenamiento son víctimas de ataques, es que te recomendamos comenzar ahora con un programa de concientización de ciberseguridad.
+        <li class="list-group-item"> Es importante hacerte notar que aun cuando cada vulnerabilidad es importante, basta con que sólo una de estas sea explotada por un atacante, para penetrar sus defensas y exponer a daños financieros, operacionales, legales y por supuesto reputacionales.
+    Dado que el 91% de los ataques exitosos comenzaron con un correo malicioso y un 47,9% de las personas dentro de una empresa sin entrenamiento son víctimas de ataques, es que te recomendamos comenzar ahora con un programa de concientización de ciberseguridad.</li>
     
-    Si no puedes o no tienes el tiempo de contestar este correo, podemos hacerlo por ti. Enviaremos un ingeniero especialista en ciberseguridad para realizar un assessment (tiene un costo adicional) 
-    Recuerda además que debes siempre contar con un EDR, Firewall y políticas de parchado continuo. Si necesitas ayuda con esto, puedes ponerte en contacto con nosotros escribiendo a nuestro REDTEAM.
+    <li class="list-group-item"> Si no puedes o no tienes el tiempo de contestar este correo, podemos hacerlo por ti. Enviaremos un ingeniero especialista en ciberseguridad para realizar un assessment (tiene un costo adicional) 
+    Recuerda además que debes siempre contar con un EDR, Firewall y políticas de parchado continuo. Si necesitas ayuda con esto, puedes ponerte en contacto con nosotros escribiendo a nuestro REDTEAM.</li>
     
     
-    Seguiremos trabajando para hacer el ecosistema más seguro cada día.
+    <li class="list-group-item">Seguiremos trabajando para hacer el ecosistema más seguro cada día.</li>
 
 
-    Equipo ONION 3
+        <li class="list-group-item">Equipo ONION 3</li>
 </div>
 </div>
 
