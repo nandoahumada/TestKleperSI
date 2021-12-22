@@ -22,10 +22,6 @@
         <li class="list-group-item"> Es importante hacerte notar que aun cuando cada vulnerabilidad es importante, basta con que sólo una de estas sea explotada por un atacante, para penetrar sus defensas y exponer a daños financieros, operacionales, legales y por supuesto reputacionales.
     Dado que el 91% de los ataques exitosos comenzaron con un correo malicioso y un 47,9% de las personas dentro de una empresa sin entrenamiento son víctimas de ataques, es que te recomendamos comenzar ahora con un programa de concientización de ciberseguridad.</li>
     
-    <li class="list-group-item"> Si no puedes o no tienes el tiempo de contestar este correo, podemos hacerlo por ti. Enviaremos un ingeniero especialista en ciberseguridad para realizar un assessment (tiene un costo adicional) 
-    Recuerda además que debes siempre contar con un EDR, Firewall y políticas de parchado continuo. Si necesitas ayuda con esto, puedes ponerte en contacto con nosotros escribiendo a nuestro REDTEAM.</li>
-    
-    
     <li class="list-group-item">Seguiremos trabajando para hacer el ecosistema más seguro cada día.</li>
 
 
@@ -33,7 +29,7 @@
 </div>
 </div>
 
-@if( auth()->check() )
+{{-- @if( auth()->check() )
 
 
                 <div class="card border-dark mb-3" style="max-width: 18rem;">
@@ -44,10 +40,10 @@
                     </div>
                   </div>
 
-@endif 
+@endif  --}}
 
         
-<div class="card">
+{{-- <div class="card">
     <div class="card-body">
         La suma de sus respuestas para la sección 1 es: {{ $resumen1}}
     </div>
@@ -123,7 +119,7 @@
         La suma de sus respuestas para la sección 17 es: {{ $resumen17}}
     </div>
 </div>
-
+ --}}
 
 
 

@@ -19,6 +19,9 @@
       <li class="list-group-item">4.	En caso no haber sido invitado por una empresa patrocinante, los resultados serán usados en forma agregada a nivel de industria para futuros benchmarks.</li>
       <li class="list-group-item">5.	Finalmente es importante recordar que el contenido de las respuestas que sean provistas en este assesstment son de exclusiva responsabilidad de quien las emite, puesto que no existirá una validación de la veracidad de lo contestado. Adicionalmente, es importante constatar que cualquier omisión o error producirá una incorrecta evaluación.</li> 
       <li class="list-group-item">¡Éxito en tu assesstment de ciber riesgo y gracias por confiar en nosotros!</li>
+          
+    <li class="list-group-item"> Si no puedes o no tienes el tiempo de contestar este correo, podemos hacerlo por ti. Enviaremos un ingeniero especialista en ciberseguridad para realizar un assessment (tiene un costo adicional) 
+      Recuerda además que debes siempre contar con un EDR, Firewall y políticas de parchado continuo. Si necesitas ayuda con esto, puedes ponerte en contacto con nosotros escribiendo a nuestro <a href="mailto:redteam@kepler.cl" target="_blank" class="btn btn-primary">REDTEAM</a>.</li>
       <li class="list-group-item">Equipo ONION 3 </li>  
 </ul>
   </div>
