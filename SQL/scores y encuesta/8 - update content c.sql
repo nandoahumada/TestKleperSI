@@ -47,9 +47,3 @@ update questions set options = '["SI", "NO", "NO CUENTO CON ESA INFORMACIÓN"]' 
 update questions set options = '["SI", "NO", "NO CUENTO CON ESA INFORMACIÓN"]' where id = 51;
 update questions set options = '["SI", "NO", "ALGUNOS"]' where id = 81;
 update questions set options = '["SOLO ESTACIONES DE TRABAJO", "SOLO SERVIDORES", "AMBOS", "NINGUNO"]' where id = 115;
-
-SELECT QU.ID, QU.CONTENT, SE.ID, QU.REAL_SECTION, SE.NAME, QU.OPTIONS 
-FROM QUESTIONS QU
-INNER JOIN SECTIONS SE
-ON QU.SECTION_ID = SE.ID
-ORDER BY QU.ID;

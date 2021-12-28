@@ -33,4 +33,4 @@ inner join users us
 on en.participant_id = us.id
 inner join sections se
 on se.id = qu.section_id
-WHERE AN.value = SC.options;
+WHERE an.value = sc.options;
