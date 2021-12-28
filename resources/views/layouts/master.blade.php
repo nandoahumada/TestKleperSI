@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>Kepler Zeratul</title>
+    <title>Cyber Risk Security Assessment</title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
@@ -39,7 +39,7 @@
         <span class="navbar-toggler-icon"></span>
     </button>
 
-    <p class="display-4"style="color:white;"><Strong>Cyber Risk Assesment</Strong></p>
+    <p class="display-4"style="color:white;"><Strong>Cyber Risk Assessment</Strong></p>
 
     <span><img src="img\KeplerB.png" height="180" width="300" alt="logo"></span>
 
