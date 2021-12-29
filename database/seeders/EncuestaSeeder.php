@@ -46,7 +46,7 @@ class EncuestaSeeder extends Seeder
         ]);
 
         $onepointone->questions()->create([
-            'content' => '¿Existe un procedimiento que establezca el responsable del inventario, a quien reporta, qué se regiStra y cada cuánto se revisa?',
+            'content' => '¿Existe un procedimiento que establezca el responsable del inventario, a quien reporta, qué se registra y cada cuánto se revisa?',
             'type' => 'radio',
             'rules' => ['required'],
             'options' => ['SI', 'NO', 'EN PROCESO']

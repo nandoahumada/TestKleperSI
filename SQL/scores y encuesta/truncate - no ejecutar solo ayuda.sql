@@ -4,6 +4,13 @@ truncate table testkeplersi.entries;
 
 truncate table testkeplersi.scores;
 
+
+SELECT QU.ID, QU.CONTENT, SE.ID, QU.REAL_SECTION, SE.NAME, QU.OPTIONS 
+FROM QUESTIONS QU
+INNER JOIN SECTIONS SE
+ON QU.SECTION_ID = SE.ID
+ORDER BY QU.ID;
+
 alter table answers
 add column score int unsigned
 after value;
