@@ -3,6 +3,7 @@
 namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
+use Illuminate\Validation\Validator;
 
 class UserFormRequest extends FormRequest
 {
@@ -25,8 +26,14 @@ class UserFormRequest extends FormRequest
     {
         return [
             'name' => 'required|max:50',
-            'email' => 'required|max:50',
-            'password' => 'min:6|confirmed',
+            'email' => 'required|max:50'
         ];
     }
-}
+
+    public function validate_password(){
+        
+        $validator = Validator::make($request->all(), [
+        'password' => ['required', 'confirmed', Password::min(8)],
+    ]);
+    }  
+} 

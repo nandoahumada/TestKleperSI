@@ -55,19 +55,19 @@
 
                 <div class="col-auto">
                         <label for="phone">Telefono:</label>
-                         <input type="text" class="form-control" id="phone"
+                         <input type="number" class="form-control" id="phone"
                         name="phone">
                 </div>  
 
                 <div class="col-auto">
                     <label for="workers_num">Numero de Integrantes de la Empresa:</label>
-                     <input type="text" class="form-control" id="workers_num"
+                     <input type="number" class="form-control" id="workers_num"
                     name="workers_num">
                 </div>  
                 
                 <div class="col-auto">
                 <label for="pcs_num">Numero de estaciones de trabajo (Computadores/Notebooks):</label>
-                 <input type="text" class="form-control" id="pcs_num"
+                 <input type="number" class="form-control" id="pcs_num"
                 name="pcs_num">
                 </div>  
 

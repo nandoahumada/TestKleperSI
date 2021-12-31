@@ -20,12 +20,12 @@ class RegistrationController extends Controller
         [
             'name'=> 'required|string',
             'email'=> 'required|string|email|unique:users',
-            'password' => 'required|confirmed',
+            'password' => 'required|min:8|alpha_num',
             'comp_name' => 'required',
             'area',
             'phone' => 'required|numeric|min:8',
-            'workers_num',
-            'pcs_num'
+            'workers_num' => 'numeric|min:1',
+            'pcs_num' => 'numeric|min:1'
 
         ]
         );

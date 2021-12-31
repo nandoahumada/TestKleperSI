@@ -50,6 +50,7 @@ class User extends Authenticatable
     protected $rules = [
         'email' => 'required|email|unique:email',
         'name' => 'string',
+        'password' => 'required|min:8|alpha_num',
         'phone' => 'numeric|min:8',
         'workers_num' => 'numeric',
         'pcs_num' => 'numeric'
