@@ -15,7 +15,7 @@ UPDATE questions set options = '["CONTINUAMENTE", "MENSUALMENTE", "AL MENOS UNA 
 UPDATE questions set options = '["CONTINUAMENTE", "MENSUALMENTE", "AL MENOS UNA VEZ AL SEMESTRE", "ANUALMENTE", "NO SE ACTUALIZA"]' where id = '113';
 UPDATE questions set options = '["CONTINUAMENTE", "DIARIAMENTE", "SEMANALMENTE", "MENSUALMENTE", "NO SE ACTUALIZA"]' where id = '116';
 
-UPDATE sections set name '4.2 - Establecer y mantener una configuración segura para los dispositivos de red' where id = 13;
+UPDATE sections set NAME = '4.2 - Establecer y mantener una configuración segura para los dispositivos de red' where id = 13;
 
 update questions set content = 'Indicar marca o modelo del firewall utilizado' where id = 48;
 
