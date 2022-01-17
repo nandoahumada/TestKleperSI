@@ -29,7 +29,7 @@
 </div>
 </div>
 
-{{-- @if( auth()->check() )
+@if( auth()->check() )
 
 
                 <div class="card border-dark mb-3" style="max-width: 18rem;">
@@ -40,10 +40,9 @@
                     </div>
                   </div>
 
-@endif  --}}
+@endif  
 
-        
-{{-- <div class="card">
+<div class="card">
     <div class="card-body">
         La suma de sus respuestas para la sección 1 es: {{ $resumen1}}
     </div>
@@ -119,7 +118,6 @@
         La suma de sus respuestas para la sección 17 es: {{ $resumen17}}
     </div>
 </div>
- --}}
 
 
 
