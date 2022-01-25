@@ -49,6 +49,7 @@ Insert into scores (question_id,question_content,options,real_section,value) val
 Insert into scores (question_id,question_content,options,real_section,value) values ('18','¿Qué se realiza ante un activo no autorizado?','DENIEGA INSTALACION','2','10');
 Insert into scores (question_id,question_content,options,real_section,value) values ('18','¿Qué se realiza ante un activo no autorizado?','SE MANTIENE EN CUARENTENA','2','5');
 Insert into scores (question_id,question_content,options,real_section,value) values ('18','¿Qué se realiza ante un activo no autorizado?','SE VALIDA EXCEPCIÓN','2','0');
+Insert into scores (question_id,question_content,options,real_section,value) values ('18','¿Qué se realiza ante un activo no autorizado?','NO APLICA','2','0');
 Insert into scores (question_id,question_content,options,real_section,value) values ('19','¿Cuentan con un proceso de gestión de información sensible?','SI','3','10');
 Insert into scores (question_id,question_content,options,real_section,value) values ('19','¿Cuentan con un proceso de gestión de información sensible?','NO','3','0');
 Insert into scores (question_id,question_content,options,real_section,value) values ('20','¿Este proceso está escrito?','SI','3','5');
@@ -83,9 +84,9 @@ Insert into scores (question_id,question_content,options,real_section,value) val
 Insert into scores (question_id,question_content,options,real_section,value) values ('31','¿Este proceso está escrito?','NO','3','0');
 Insert into scores (question_id,question_content,options,real_section,value) values ('32','¿Se incluye en el proceso de gestión de información sensible este punto sobre la eliminación de información sensible?','SI','3','5');
 Insert into scores (question_id,question_content,options,real_section,value) values ('32','¿Se incluye en el proceso de gestión de información sensible este punto sobre la eliminación de información sensible?','NO','3','0');
-Insert into scores (question_id,question_content,options,real_section,value) values ('33','¿Existe un procedimiento para manejar el equipo de un empleado que ha dejado la compañía?','SI','3','5');
+Insert into scores (question_id,question_content,options,real_section,value) values ('33','¿Existe un procedimiento para manejar el equipo de un empleado que ha dejado la compañía?','SI Y ESTÁ DOCUMENTADO','3','5');
+Insert into scores (question_id,question_content,options,real_section,value) values ('33','¿Existe un procedimiento para manejar el equipo de un empleado que ha dejado la compañía?','SI Y NO ESTÁ DOCUMENTADO','3','5');
 Insert into scores (question_id,question_content,options,real_section,value) values ('33','¿Existe un procedimiento para manejar el equipo de un empleado que ha dejado la compañía?','NO','3','0');
-Insert into scores (question_id,question_content,options,real_section,value) values ('33','¿Existe un procedimiento para manejar el equipo de un empleado que ha dejado la compañía?','NO ESCRITO','3','0');
 Insert into scores (question_id,question_content,options,real_section,value) values ('34','¿Este proceso esta escrito?','SI','3','5');
 Insert into scores (question_id,question_content,options,real_section,value) values ('34','¿Este proceso esta escrito?','NO','3','0');
 Insert into scores (question_id,question_content,options,real_section,value) values ('35','¿Cuentan con listas de control de acceso a la informacion?','SI','3','5');
@@ -311,6 +312,7 @@ Insert into scores (question_id,question_content,options,real_section,value) val
 Insert into scores (question_id,question_content,options,real_section,value) values ('123','¿Está documentado?','OTRO','12','10');
 Insert into scores (question_id,question_content,options,real_section,value) values ('124','¿Se cuenta con un programa de concientización o capacitación en ciberseguridad?','SI','14','10');
 Insert into scores (question_id,question_content,options,real_section,value) values ('124','¿Se cuenta con un programa de concientización o capacitación en ciberseguridad?','NO','14','0');
+Insert into scores (question_id,question_content,options,real_section,value) values ('124','¿Se cuenta con un programa de concientización o capacitación en ciberseguridad?','NO APLICA','14','0');
 Insert into scores (question_id,question_content,options,real_section,value) values ('125','¿Está documentado?','SI','14','10');
 Insert into scores (question_id,question_content,options,real_section,value) values ('125','¿Está documentado?','NO','14','0');
 Insert into scores (question_id,question_content,options,real_section,value) values ('126','¿Se rigen por un programa/plan externo o es realizado internamente?','Externo','14','20');
