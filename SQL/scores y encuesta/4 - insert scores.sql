@@ -315,8 +315,9 @@ Insert into scores (question_id,question_content,options,real_section,value) val
 Insert into scores (question_id,question_content,options,real_section,value) values ('124','¿Se cuenta con un programa de concientización o capacitación en ciberseguridad?','NO APLICA','14','0');
 Insert into scores (question_id,question_content,options,real_section,value) values ('125','¿Está documentado?','SI','14','10');
 Insert into scores (question_id,question_content,options,real_section,value) values ('125','¿Está documentado?','NO','14','0');
-Insert into scores (question_id,question_content,options,real_section,value) values ('126','¿Se rigen por un programa/plan externo o es realizado internamente?','Externo','14','20');
-Insert into scores (question_id,question_content,options,real_section,value) values ('126','¿Se rigen por un programa/plan externo o es realizado internamente?','Interno','14','10');
+Insert into scores (question_id,question_content,options,real_section,value) values ('126','¿Se rigen por un programa/plan externo o es realizado internamente?','EXTERNO','14','20');
+Insert into scores (question_id,question_content,options,real_section,value) values ('126','¿Se rigen por un programa/plan externo o es realizado internamente?','INTERNO','14','10');
+Insert into scores (question_id,question_content,options,real_section,value) values ('126','¿Se rigen por un programa/plan externo o es realizado internamente?','NO APLICA','14','10');
 Insert into scores (question_id,question_content,options,real_section,value) values ('128','¿El programa incluye este punto?','SI','14','10');
 Insert into scores (question_id,question_content,options,real_section,value) values ('128','¿El programa incluye este punto?','NO','14','0');
 Insert into scores (question_id,question_content,options,real_section,value) values ('129','¿El programa incluye este punto?','SI','14','10');
