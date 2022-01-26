@@ -17,7 +17,9 @@
 
 
 <div class="card mb-3">
-    <div class="card-body">Muchas gracias por contestar nuestro Cyber Risk Assessment. Empezaremos a procesar la información para entregarle un scoring y recomendaciones personalizadas. Pero tranquil@, si contrataste el seguro, ¡ya cuentas con protección financiera!</li>
+    <div class="card-body">Muchas gracias por contestar nuestro Cyber Risk Assessment. Empezaremos a procesar la información para entregarle un scoring y recomendaciones personalizadas. 
+        Pero tranquil@, como ya contrataste Onion 3, dispones del respaldo de un equipo de Mitigación que te ayudará a controlar los daños ocasionados por un ciber ataque, 
+        y adicionalmente de una Protección Financiera para cubrir gastos asociados del ataque.</li>
     
         <li class="list-group-item"> Es importante hacerte notar que aun cuando cada vulnerabilidad es importante, basta con que sólo una de estas sea explotada por un atacante, para penetrar sus defensas y exponer a daños financieros, operacionales, legales y por supuesto reputacionales.
     Dado que el 91% de los ataques exitosos comenzaron con un correo malicioso y un 47,9% de las personas dentro de una empresa sin entrenamiento son víctimas de ataques, es que te recomendamos comenzar ahora con un programa de concientización de ciberseguridad.</li>

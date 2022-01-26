@@ -10,9 +10,9 @@ update questions
 set options = '["SI", "NO","NO APLICA"]'
 where id = 124;
 
-update question
+update questions
 set content = 'En caso de ser un programa o proveedor externo ¿Cuál?, Puede indicar NO APLICA si no cuenta con programa' 
-where question_id = 25;
+where id = 25;
 
 update questions
 set rules = '["min:1", "max:255"]'
@@ -65,3 +65,21 @@ where id = 67;
 update scores
 set question_content = '¿Tienen los administradores una cuenta en todos los equipos de red?' 
 where question_id = 67;
+
+update sections set name = '1.2 .- Actuar frente a dispositivos no autorizados' where id = 2;
+
+update questions
+set rules = '["min:1", "max:255"]'
+where id = 104;
+
+update questions
+set options = '["SI", "NO", "NO APLICA"]'
+where id = 125;
+
+update questions
+set options = '["EXTERNO", "INTERNO", "NO APLICA"]'
+where id = 126;
+
+update questions
+set rules = '["min:1", "max:255"]'
+where id = 127;

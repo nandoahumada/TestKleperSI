@@ -7,11 +7,15 @@ WHERE ID = 11
 AND ENCUESTADO = 'Mandiolo';
 
 select * from scores
-where real_section = 5;
+where real_section = 14;
 
 select * from
 questions 
-where real_section = 5;
+where real_section = 14;
+
+select * from
+sections 
+where id = 2;
 
 select * from
 questions 
