@@ -83,3 +83,5 @@ where id = 126;
 update questions
 set rules = '["min:1", "max:255"]'
 where id = 127;
+
+update scores set question_content = '¿Tienen los administradores una cuenta en todos los equipos de red?' where question_id = 67;
