@@ -115,11 +115,11 @@ Insert into scores (question_id,question_content,options,real_section,value) val
 Insert into scores (question_id,question_content,options,real_section,value) values ('43','¿Estas configuraciones están documentadas?','NO','4','0');
 Insert into scores (question_id,question_content,options,real_section,value) values ('44','¿Los equipos de la compañía cuenta con el bloqueo de sesión automático ante inactividad?','SI','4','5');
 Insert into scores (question_id,question_content,options,real_section,value) values ('44','¿Los equipos de la compañía cuenta con el bloqueo de sesión automático ante inactividad?','NO','4','0');
-Insert into scores (question_id,question_content,options,real_section,value) values ('45','¿Después de qué periodo de inactividad se bloquea?','(Minutos) 1','4','10');
-Insert into scores (question_id,question_content,options,real_section,value) values ('45','¿Después de qué periodo de inactividad se bloquea?','(Minutos) 5','4','10');
-Insert into scores (question_id,question_content,options,real_section,value) values ('45','¿Después de qué periodo de inactividad se bloquea?','(Minutos) 10','4','5');
-Insert into scores (question_id,question_content,options,real_section,value) values ('45','¿Después de qué periodo de inactividad se bloquea?','(Minutos) 15','4','5');
-Insert into scores (question_id,question_content,options,real_section,value) values ('45','¿Después de qué periodo de inactividad se bloquea?','(Minutos) OTRO','4','0');
+Insert into scores (question_id,question_content,options,real_section,value) values ('45','¿Después de qué periodo de inactividad se bloquea?','1','4','10');
+Insert into scores (question_id,question_content,options,real_section,value) values ('45','¿Después de qué periodo de inactividad se bloquea?','5','4','10');
+Insert into scores (question_id,question_content,options,real_section,value) values ('45','¿Después de qué periodo de inactividad se bloquea?','10','4','5');
+Insert into scores (question_id,question_content,options,real_section,value) values ('45','¿Después de qué periodo de inactividad se bloquea?','15','4','5');
+Insert into scores (question_id,question_content,options,real_section,value) values ('45','¿Después de qué periodo de inactividad se bloquea?','OTRO','4','0');
 Insert into scores (question_id,question_content,options,real_section,value) values ('46','¿Estas configuraciones están documentadas?','SI','4','5');
 Insert into scores (question_id,question_content,options,real_section,value) values ('46','¿Estas configuraciones están documentadas?','NO','4','0');
 Insert into scores (question_id,question_content,options,real_section,value) values ('47','¿Cuentan con firewall configurado?','SI','4','10');
