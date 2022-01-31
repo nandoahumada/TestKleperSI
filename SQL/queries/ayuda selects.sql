@@ -1,15 +1,15 @@
 select * from SelectAnswersByUser
-where id = 4
+where id = 9
 AND ENCUESTADO = 'danitza';
 
   SELECT SUM(PUNTAJE) FROM SelectAnswersByUser
-  WHERE ID = 4
+  WHERE ID = 9
   AND ENCUESTADO = 'danitza';
 
 select qu.id,qu.real_section,qu.content,sc.id,sc.options,sc.value from questions qu
 inner join scores sc
 on qu.id = sc.question_id
-where sc.real_section in (4,9,11);
+where sc.real_section in (9);
 
 select * from
 questions 
