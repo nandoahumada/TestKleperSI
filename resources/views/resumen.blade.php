@@ -44,7 +44,7 @@
 
 @endif  
 
-<div class="card">
+{{-- <div class="card">
     <div class="card-body">
         La suma de sus respuestas para la sección 1 es: {{ $resumen1}}
     </div>
@@ -120,7 +120,7 @@
         La suma de sus respuestas para la sección 17 es: {{ $resumen17}}
     </div>
 </div>
-
+ --}}
 
 
 

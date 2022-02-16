@@ -29,7 +29,7 @@
             <input type="email" class="form-control" id="email" name="email">
         </div>
         <div class="col-auto">
-            <label for="password">Contraseña:</label>
+            <label for="password">Contraseña (debe contener al menos 8 caracteres):</label>
             <input type="password" class="form-control" id="password" name="password">
         </div>
 
@@ -48,7 +48,7 @@
                         </div>        
 
                  <div class="col-auto">
-                     <label for="area">Area de trabajo:</label>
+                     <label for="area">Area en la que presta los servicios:</label>
                      <input type="text" class="form-control" id="area"
                        name="area">
                   </div>  

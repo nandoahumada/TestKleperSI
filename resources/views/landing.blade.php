@@ -53,7 +53,7 @@
     <p class="card-text">•	Si no puedes o no tienes el tiempo de contestar este Cyber Risk Assessment, podemos hacerlo por ti. Enviaremos un ingeniero especialista en 
       ciberseguridad para realizar un assessment (el cual tendrá un costo adicional) Recuerda además que debes siempre contar con un EDR, Firewall y políticas de parchado 
       continuo. Si necesitas ayuda con esto, puedes ponerte en contacto con nosotros escribiendo a 
-      nuestro <a href="mailto:redteam@kepler.cl" target="_blank" class="btn btn-primary">REDTEAM</a></p>
+      nuestro <a href="mailto:redteam@kepler.cl" target="_blank" class="link">REDTEAM</a></p>
       <p class="card-text">Equipo ONION 3 </p> 
       
       <p class="card-text">Haciendo click en el boton Iniciar, se darán por leídos y aceptados los términos y condiciones descritos”</p>
