@@ -30,7 +30,7 @@
         <li class="list-group-item">Equipo ONION 3</li>
 </div>
 </div>
-
+{{-- 
 @if( auth()->check() )
 
 
@@ -42,7 +42,7 @@
                     </div>
                   </div>
 
-@endif  
+@endif   --}}
 
 {{-- <div class="card">
     <div class="card-body">
