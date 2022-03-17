@@ -19,6 +19,13 @@ class User extends Authenticatable
      */
     protected $fillable = [
         'name',
+        'razon_social',
+        'RUT','direccion',
+        'plan_contratado',
+        'proveedor',
+        'persona_poliza',
+        'contacto_poliza',
+        'mail_poliza',
         'email',
         'password',
         'comp_name',
@@ -48,12 +55,22 @@ class User extends Authenticatable
     ];
 
     protected $rules = [
-        'email' => 'required|email|unique:email',
-        'name' => 'string',
+        'name'=> 'required|string',
+        'razon_social' => 'string',
+        'RUT' => 'required|max:10',
+        'direccion' => 'string',
+        'plan_contratado' => 'required|string',
+        'proveedor' => 'string',
+        'persona_poliza' => 'required|string',
+        'contacto_poliza' => 'numeric|min:8',
+        'mail_poliza' => 'required|string|email',
+        'email'=> 'required|string|email|unique:users',
         'password' => 'required|min:8|alpha_num',
-        'phone' => 'numeric|min:8',
-        'workers_num' => 'numeric',
-        'pcs_num' => 'numeric'
+        'comp_name' => 'required',
+        'area',
+        'phone' => 'required|numeric|min:8',
+        'workers_num' => 'numeric|min:1',
+        'pcs_num' => 'numeric|min:1'
     ];
 
 

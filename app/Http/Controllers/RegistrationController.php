@@ -19,6 +19,14 @@ class RegistrationController extends Controller
         $this->validate(request(),
         [
             'name'=> 'required|string',
+            'razon_social' => 'string',
+            'RUT' => 'required|max:10',
+            'direccion' => 'string',
+            'plan_contratado' => 'required|string',
+            'proveedor' => 'string',
+            'persona_poliza' => 'required|string',
+            'contacto_poliza' => 'numeric|min:8',
+            'mail_poliza' => 'required|string|email',
             'email'=> 'required|string|email|unique:users',
             'password' => 'required|min:8|alpha_num',
             'comp_name' => 'required',
@@ -30,7 +38,12 @@ class RegistrationController extends Controller
         ]
         );
 
-        $user = User::create(request(['name','email','password','comp_name','area','phone','workers_num','pcs_num']));
+        $user = User::create(request(['name','razon_social','RUT','direccion','plan_contratado','proveedor','persona_poliza','contacto_poliza',
+        'mail_poliza','email','password','comp_name','area','phone','workers_num','pcs_num']));
+
+        return response()->json([
+                     'message' => 'Successfully created user!'
+                 ], 201);
 
         auth()->login($user);
 

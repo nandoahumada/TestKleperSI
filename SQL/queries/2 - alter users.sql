@@ -17,3 +17,4 @@ after phone;
 alter table users
 add column pcs_num int unsigned
 after workers_num;
+

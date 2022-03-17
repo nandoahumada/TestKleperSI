@@ -19,11 +19,11 @@ class SessionController extends Controller
     {
         //Error messages
         $messages = [
-            "email.required" => "Email is required",
-            "email.email" => "Email is not valid",
-            "email.exists" => "Email doesn't exists",
-            "password.required" => "Password is required",
-            "password.min" => "Password must be at least 6 characters"
+            "email.required" => "El Email es requerido",
+            "email.email" => "El email no es valido",
+            "email.exists" => "El email no existe",
+            "password.required" => "Contraseña requerida",
+            "password.min" => "Contraseña debe tener al menos 8 caracteres y ser alfanumerica"
         ];
         
         // validate the form data
