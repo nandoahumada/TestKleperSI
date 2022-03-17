@@ -71,6 +71,38 @@
                 name="pcs_num">
                 </div>  
 
+                <h1 class="display-6"> Datos del cliente </h1>
+
+                <div class="col-auto">
+                    <label for="RUT">RUT:</label>
+                    <input type="text" class="form-control" id="RUT"
+                           name="RUT">
+                </div>  
+
+                <div class="col-auto">
+                    <label for="plan_contratado">Plan Contratado:</label>
+                    <input type="text" class="form-control" id="plan_contratado"
+                           name="plan_contratado">
+                </div>
+
+                <div class="col-auto">
+                    <label for="persona_poliza">Nombre Persona Contacto de la Poliza:</label>
+                    <input type="text" class="form-control" id="persona_poliza"
+                           name="persona_poliza">
+                </div>
+
+                <div class="col-auto">
+                    <label for="contacto_poliza">Numero Persona Contacto de la Poliza:</label>
+                    <input type="text" class="form-control" id="contacto_poliza"
+                           name="contacto_poliza">
+                </div>
+
+                <div class="col-auto">
+                    <label for="mail_poliza">Mail Persona Contacto de la Poliza:</label>
+                    <input type="text" class="form-control" id="mail_poliza"
+                           name="mail_poliza">
+                </div>
+                        
 
         <div class="col-auto p-3">
             <button style="cursor:pointer" type="submit" class="btn btn-primary">Enviar</button>

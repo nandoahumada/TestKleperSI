@@ -43,7 +43,7 @@
 
     <span><img src="img\KeplerB.png" height="180" width="300" alt="logo"></span>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div class="navbar-collapse collapse show" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item ">
                 <a class="nav-link font-weight-bold" href="/startsurvey">Ir a Encuesta</a>
