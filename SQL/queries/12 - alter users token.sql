@@ -13,7 +13,7 @@ after RUT;
 
 alter table users
 add column plan_contratado varchar(20)
-after telefono;
+after direccion;
 
 alter table users
 add column proveedor varchar(50)

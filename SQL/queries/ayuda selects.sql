@@ -4,7 +4,7 @@ AND ENCUESTADO = 'danitza';
 
   SELECT SUM(PUNTAJE) FROM SelectAnswersByUser
   WHERE ID = 9
-  AND ENCUESTADO = 'danitza';
+  AND ENCUESTADO = 'bruniTestToken';
 
 select qu.id,qu.real_section,qu.content,sc.id,sc.options,sc.value from questions qu
 inner join scores sc

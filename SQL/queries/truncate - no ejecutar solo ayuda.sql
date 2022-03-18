@@ -2,6 +2,8 @@ truncate table testkeplersi.answers;
 
 truncate table testkeplersi.entries;
 
+truncate table testkeplersi.users;
+
 truncate table testkeplersi.scores;
 
 
