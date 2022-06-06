@@ -233,7 +233,7 @@ update scores set value = '5' where id = '234';
 update scores set value = '20' where id = '235';	
 update scores set value = '0' where id = '236';	
 update scores set value = '5' where id = '237';	
-update scores set value = '' where id = '238';	
+update scores set value = '0' where id = '238';	
 update scores set value = '10' where id = '239';	
 update scores set value = '0' where id = '240';	
 update scores set value = '20' where id = '241';	
@@ -260,7 +260,7 @@ update scores set value = '10' where id = '261';
 update scores set value = '10' where id = '262';
 update scores set value = '0' where id = '263';
 update scores set value = '5' where id = '264'; 
-update scores set value = '10' where id = '266'
+update scores set value = '10' where id = '266';
 update scores set value = '0' where id = '267';
 update scores set value = '10' where id = '268';
 update scores set value = '10' where id = '269';
@@ -282,7 +282,7 @@ update scores set value = '0' where id = '284';
 update scores set value = '5' where id = '285';
 update scores set value = '10' where id = '286';
 update scores set value = '0' where id = '287';
-update scores set value = '10' where id = '288'
+update scores set value = '10' where id = '288';
 update scores set value = '10' where id = '289';
 update scores set value = '5' where id = '290';
 update scores set value = '5' where id = '291';
@@ -318,7 +318,7 @@ update scores set value = '10' where id = '325';
 update scores set value = '0' where id = '326';
 update scores set value = '10' where id = '327';
 update scores set value = '0' where id = '328';
-update scores set value = '10' where id = '329'
+update scores set value = '10' where id = '329';
 update scores set value = '0' where id = '330';
 update scores set value = '10' where id = '331';
 update scores set value = '0' where id = '332';
@@ -336,7 +336,7 @@ update scores set value = '5' where id = '343';
 update scores set value = '25' where id = '344';
 update scores set value = '0' where id = '345';
 update scores set value = '5' where id = '346';
-update scores set value = '25' where id = '347'
+update scores set value = '25' where id = '347';
 update scores set value = '0' where id = '348';
 update scores set value = '5' where id = '349'; 
 update scores set value = '25' where id = '350';
